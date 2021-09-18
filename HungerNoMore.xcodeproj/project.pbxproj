@@ -7,23 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400A21ED1EDD4FE3003DD090 /* GetFeaturedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A21EC1EDD4FE2003DD090 /* GetFeaturedImage.swift */; };
+		400A21EF1EDDF34D003DD090 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 400A21EE1EDDF34D003DD090 /* GoogleService-Info.plist */; };
 		402B56AD1EDBCC6C0078B53C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B56AC1EDBCC6C0078B53C /* AppDelegate.swift */; };
-		402B56AF1EDBCC6C0078B53C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B56AE1EDBCC6C0078B53C /* ViewController.swift */; };
 		402B56B21EDBCC6C0078B53C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402B56B01EDBCC6C0078B53C /* Main.storyboard */; };
 		402B56B51EDBCC6C0078B53C /* HungerNoMore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 402B56B31EDBCC6C0078B53C /* HungerNoMore.xcdatamodeld */; };
 		402B56B71EDBCC6C0078B53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402B56B61EDBCC6C0078B53C /* Assets.xcassets */; };
 		402B56BA1EDBCC6C0078B53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402B56B81EDBCC6C0078B53C /* LaunchScreen.storyboard */; };
+		402B56C21EDBCD8E0078B53C /* PlacesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B56C11EDBCD8E0078B53C /* PlacesTVC.swift */; };
+		402B56C51EDBCE110078B53C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B56C41EDBCE110078B53C /* Place.swift */; };
+		406FA6D91EDBFC9400754AB8 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FA6D81EDBFC9400754AB8 /* RestaurantCell.swift */; };
+		406FA6DC1EDC012900754AB8 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406FA6DB1EDC012900754AB8 /* UIImageView+Download.swift */; };
+		406FA6E11EDC2F0C00754AB8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406FA6E01EDC2F0C00754AB8 /* CoreLocation.framework */; };
+		4D75D68F3D758ECA1BF52C3B /* Pods_HungerNoMore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019D7D639C69B79E8817FCA8 /* Pods_HungerNoMore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		019D7D639C69B79E8817FCA8 /* Pods_HungerNoMore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HungerNoMore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400A21EC1EDD4FE2003DD090 /* GetFeaturedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFeaturedImage.swift; sourceTree = "<group>"; };
+		400A21EE1EDDF34D003DD090 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		402B56A91EDBCC6C0078B53C /* HungerNoMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungerNoMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		402B56AC1EDBCC6C0078B53C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		402B56AE1EDBCC6C0078B53C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		402B56B11EDBCC6C0078B53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		402B56B41EDBCC6C0078B53C /* HungerNoMore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HungerNoMore.xcdatamodel; sourceTree = "<group>"; };
 		402B56B61EDBCC6C0078B53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		402B56B91EDBCC6C0078B53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		402B56BB1EDBCC6C0078B53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402B56C11EDBCD8E0078B53C /* PlacesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesTVC.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		402B56C41EDBCE110078B53C /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		406FA6D81EDBFC9400754AB8 /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		406FA6DB1EDC012900754AB8 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
+		406FA6DD1EDC0EA600754AB8 /* HungerNoMore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HungerNoMore-Bridging-Header.h"; sourceTree = "<group>"; };
+		406FA6E01EDC2F0C00754AB8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4AA1620A560881B2CC0047FE /* Pods-HungerNoMore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HungerNoMore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HungerNoMore/Pods-HungerNoMore.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB861867695489E7500B5A8 /* Pods-HungerNoMore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HungerNoMore.release.xcconfig"; path = "Pods/Target Support Files/Pods-HungerNoMore/Pods-HungerNoMore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +48,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406FA6E11EDC2F0C00754AB8 /* CoreLocation.framework in Frameworks */,
+				4D75D68F3D758ECA1BF52C3B /* Pods_HungerNoMore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0713BAD50FD68323C5F3A212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				406FA6E01EDC2F0C00754AB8 /* CoreLocation.framework */,
+				019D7D639C69B79E8817FCA8 /* Pods_HungerNoMore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F181B4C0181D23F7A31FB10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AA1620A560881B2CC0047FE /* Pods-HungerNoMore.debug.xcconfig */,
+				AFB861867695489E7500B5A8 /* Pods-HungerNoMore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		402B56A01EDBCC6C0078B53C = {
 			isa = PBXGroup;
 			children = (
 				402B56AB1EDBCC6C0078B53C /* HungerNoMore */,
 				402B56AA1EDBCC6C0078B53C /* Products */,
+				2F181B4C0181D23F7A31FB10 /* Pods */,
+				0713BAD50FD68323C5F3A212 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +96,44 @@
 			isa = PBXGroup;
 			children = (
 				402B56AC1EDBCC6C0078B53C /* AppDelegate.swift */,
-				402B56AE1EDBCC6C0078B53C /* ViewController.swift */,
+				406FA6D71EDBFC6500754AB8 /* Custom Cell */,
 				402B56B01EDBCC6C0078B53C /* Main.storyboard */,
+				402B56C31EDBCDAD0078B53C /* ViewControllers */,
 				402B56B61EDBCC6C0078B53C /* Assets.xcassets */,
+				406FA6DA1EDC011100754AB8 /* Extension */,
+				402B56C41EDBCE110078B53C /* Place.swift */,
+				400A21EC1EDD4FE2003DD090 /* GetFeaturedImage.swift */,
 				402B56B81EDBCC6C0078B53C /* LaunchScreen.storyboard */,
 				402B56BB1EDBCC6C0078B53C /* Info.plist */,
 				402B56B31EDBCC6C0078B53C /* HungerNoMore.xcdatamodeld */,
+				406FA6DD1EDC0EA600754AB8 /* HungerNoMore-Bridging-Header.h */,
+				400A21EE1EDDF34D003DD090 /* GoogleService-Info.plist */,
 			);
 			path = HungerNoMore;
+			sourceTree = "<group>";
+		};
+		402B56C31EDBCDAD0078B53C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				402B56C11EDBCD8E0078B53C /* PlacesTVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		406FA6D71EDBFC6500754AB8 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				406FA6D81EDBFC9400754AB8 /* RestaurantCell.swift */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		406FA6DA1EDC011100754AB8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				406FA6DB1EDC012900754AB8 /* UIImageView+Download.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 402B56BE1EDBCC6C0078B53C /* Build configuration list for PBXNativeTarget "HungerNoMore" */;
 			buildPhases = (
+				245F88B5CF13435DB84610A4 /* [CP] Check Pods Manifest.lock */,
 				402B56A51EDBCC6C0078B53C /* Sources */,
 				402B56A61EDBCC6C0078B53C /* Frameworks */,
 				402B56A71EDBCC6C0078B53C /* Resources */,
+				904ED802FEAD7441A016A8EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,7 +170,8 @@
 				TargetAttributes = {
 					402B56A81EDBCC6C0078B53C = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = Z6SZFEQ64K;
+						DevelopmentTeam = J3FX369Q32;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -130,19 +202,83 @@
 				402B56BA1EDBCC6C0078B53C /* LaunchScreen.storyboard in Resources */,
 				402B56B71EDBCC6C0078B53C /* Assets.xcassets in Resources */,
 				402B56B21EDBCC6C0078B53C /* Main.storyboard in Resources */,
+				400A21EF1EDDF34D003DD090 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		245F88B5CF13435DB84610A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HungerNoMore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		904ED802FEAD7441A016A8EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HungerNoMore/Pods-HungerNoMore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/FaceAware/FaceAware.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaceAware.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HungerNoMore/Pods-HungerNoMore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		402B56A51EDBCC6C0078B53C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406FA6DC1EDC012900754AB8 /* UIImageView+Download.swift in Sources */,
+				400A21ED1EDD4FE3003DD090 /* GetFeaturedImage.swift in Sources */,
+				406FA6D91EDBFC9400754AB8 /* RestaurantCell.swift in Sources */,
 				402B56B51EDBCC6C0078B53C /* HungerNoMore.xcdatamodeld in Sources */,
-				402B56AF1EDBCC6C0078B53C /* ViewController.swift in Sources */,
+				402B56C21EDBCD8E0078B53C /* PlacesTVC.swift in Sources */,
 				402B56AD1EDBCC6C0078B53C /* AppDelegate.swift in Sources */,
+				402B56C51EDBCE110078B53C /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,27 +399,38 @@
 		};
 		402B56BF1EDBCC6C0078B53C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA1620A560881B2CC0047FE /* Pods-HungerNoMore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z6SZFEQ64K;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = J3FX369Q32;
 				INFOPLIST_FILE = HungerNoMore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = crzQag.HungerNoMore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crzQag.hungernomore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "HungerNoMore/HungerNoMore-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		402B56C01EDBCC6C0078B53C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB861867695489E7500B5A8 /* Pods-HungerNoMore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z6SZFEQ64K;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = J3FX369Q32;
 				INFOPLIST_FILE = HungerNoMore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = crzQag.HungerNoMore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crzQag.hungernomore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "HungerNoMore/HungerNoMore-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -306,6 +453,7 @@
 				402B56C01EDBCC6C0078B53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,0 +1,121 @@
+PODS:
+  - Alamofire (4.7.3)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Cosmos (9.0.0)
+  - DynamicBlurView (2.0.2)
+  - FaceAware (1.4.0)
+  - Firebase/Core (5.5.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.1.0)
+  - Firebase/CoreOnly (5.5.0):
+    - FirebaseCore (= 5.1.0)
+  - FirebaseAnalytics (5.1.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.2)
+    - GoogleAppMeasurement (~> 5.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2.0)
+    - GoogleUtilities/MethodSwizzler (~> 5.2.0)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.1.0):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.2.0):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.2)
+  - GoogleAppMeasurement (5.1.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2.0)
+    - GoogleUtilities/MethodSwizzler (~> 5.2.0)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (5.2.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.2.2)
+  - GoogleUtilities/Logger (5.2.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.2.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.2.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.2.2)"
+  - GoogleUtilities/Reachability (5.2.2):
+    - GoogleUtilities/Logger
+  - MarqueeLabel/Swift (3.1.6)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - PopupDialog (0.8.0):
+    - DynamicBlurView (~> 2.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Cosmos (~> 9.0)
+  - FaceAware
+  - Firebase/Core
+  - MarqueeLabel/Swift
+  - PopupDialog (~> 0.5)
+  - SDWebImage (~> 3.8)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Cosmos
+    - DynamicBlurView
+    - FaceAware
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - MarqueeLabel
+    - nanopb
+    - PopupDialog
+    - SDWebImage
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Cosmos: 33eee62b2a0418452aef470f711f83c3ea061b7b
+  DynamicBlurView: aa6db4defc6e537eb86fc5e58dd3991666178399
+  FaceAware: 94410295a219c4a397ce525eab0063d6b17258aa
+  Firebase: 8c957f9cb3852b519180fb378801b7eeeba4d288
+  FirebaseAnalytics: d4a260c114aec0d765ab5b9c404ac63de1d29381
+  FirebaseCore: ee4b35cf8c8e781da296cc7c15125e4608bb954d
+  FirebaseInstanceID: 8cd2c6cfe7b9ab65ce7e248f6da7f26f6775b9be
+  GoogleAppMeasurement: e785bdb86d3d280abc778156cec323a975f11d1d
+  GoogleUtilities: 06b66f9567769a7958db20a92f0128b2843e49d5
+  MarqueeLabel: 0c41f08ef5773e29c0f71064a8fa788a2fd8b365
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  PopupDialog: 11347197b6ac3e0548ac445d40ce68d1d407e9a0
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: fe69d8300ea9944b183ed8376176a741d3afc00a
+
+COCOAPODS: 1.5.3
